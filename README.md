@@ -14,6 +14,7 @@
 | [0092-reverse-linked-list-ii](https://github.com/wenwen510238/LeetCode/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/wenwen510238/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 ## Two Pointers
 |  |
 | ------- |
@@ -43,6 +44,7 @@
 | [0013-roman-to-integer](https://github.com/wenwen510238/LeetCode/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/wenwen510238/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Math
@@ -127,6 +129,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -147,4 +150,8 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
