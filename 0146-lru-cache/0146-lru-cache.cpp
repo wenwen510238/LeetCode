@@ -24,12 +24,11 @@ public:
     }
     
     void addNode(Node* newNode){
-        Node* tmp = head->next;
-        newNode->next = tmp;
+        newNode->next = head->next;
         newNode->prev = head;
 
+        head->next->prev = newNode;
         head->next = newNode;
-        tmp->prev = newNode;
     }
 
     void deleteNode(Node* delNode){
@@ -42,11 +41,9 @@ public:
             Node* res = hash[key];
             int ans = res->val;
 
-            hash.erase(key);
             deleteNode(res);
             addNode(res);
 
-            hash[key] = head->next;
             return ans;
         }
         return -1;
