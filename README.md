@@ -45,6 +45,7 @@
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/wenwen510238/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 ## Simulation
