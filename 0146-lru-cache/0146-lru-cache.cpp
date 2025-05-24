@@ -23,7 +23,7 @@ public:
         tail->prev = head;
     }
     
-    void addNode(Node* newNode){
+    void insertTohead(Node* newNode){
         newNode->next = head->next;
         newNode->prev = head;
 
@@ -34,6 +34,13 @@ public:
     void deleteNode(Node* delNode){
         delNode->prev->next = delNode->next;
         delNode->next->prev = delNode->prev;
+        delete delNode;
+    }
+
+    void moveTohead(Node* node){
+        node->prev->next = node->next;
+        node->next->prev = node->prev;
+        insertTohead(node);
     }
 
     int get(int key) {
@@ -41,8 +48,7 @@ public:
             Node* res = hash[key];
             int ans = res->val;
 
-            deleteNode(res);
-            addNode(res);
+            moveTohead(res);
 
             return ans;
         }
@@ -51,17 +57,17 @@ public:
     
     void put(int key, int value) {  
         if(hash.find(key) != hash.end()){
-            Node* curr = hash[key];
-            hash.erase(key);
-            deleteNode(curr);
+            hash[key]->val = value;
+            moveTohead(hash[key]);
         }
-        
-        if(hash.size() == cap){
-            hash.erase(tail->prev->key);
-            deleteNode(tail->prev);
-        }
-        addNode(new Node(key, value));
-        hash[key] = head->next;
+        else{
+            if(hash.size() == cap){
+                hash.erase(tail->prev->key);
+                deleteNode(tail->prev);
+            }
+            insertTohead(new Node(key, value));
+            hash[key] = head->next;
+        }   
     }
 };
 
