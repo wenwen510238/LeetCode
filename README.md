@@ -19,6 +19,7 @@
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/wenwen510238/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/wenwen510238/LeetCode/tree/master/0061-rotate-list) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/wenwen510238/LeetCode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/wenwen510238/LeetCode/tree/master/0086-partition-list) |
@@ -46,6 +47,7 @@
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 ## String
 |  |
@@ -70,4 +72,16 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/wenwen510238/LeetCode/tree/master/0014-longest-common-prefix) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
