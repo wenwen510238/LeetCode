@@ -50,6 +50,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0134-gas-station](https://github.com/wenwen510238/LeetCode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/wenwen510238/LeetCode/tree/master/0135-candy) |
@@ -83,6 +84,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 ## Stack
 |  |
 | ------- |
@@ -94,6 +96,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/wenwen510238/LeetCode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/wenwen510238/LeetCode/tree/master/0135-candy) |
 ## Prefix Sum
