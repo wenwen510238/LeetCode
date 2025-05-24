@@ -37,4 +37,16 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/wenwen510238/LeetCode/tree/master/0002-add-two-numbers) |
+## Array
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
+## String
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
+## Simulation
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 <!---LeetCode Topics End-->
