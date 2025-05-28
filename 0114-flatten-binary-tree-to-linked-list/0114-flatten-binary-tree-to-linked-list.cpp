@@ -12,18 +12,16 @@
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        TreeNode* prev = nullptr;
-        dfs(root, prev);
-    }
-    void dfs(TreeNode* node, TreeNode*& prev){
-        if(!node)   return ;
-
-        dfs(node->right, prev);
-        dfs(node->left, prev);
-
-        node->right = prev;
-        node->left = nullptr;
-
-        prev = node;
+        TreeNode* cur = root;
+        while(cur){
+            if(cur->left){
+                TreeNode* tmp = cur->left;
+                while(tmp->right)   tmp = tmp->right;
+                tmp->right = cur->right;
+                cur->right = cur->left;
+                cur->left = nullptr;
+            }
+            cur = cur->right;
+        }
     }
 };
