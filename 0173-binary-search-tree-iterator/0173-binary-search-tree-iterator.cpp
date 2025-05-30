@@ -11,27 +11,28 @@
  */
 class BSTIterator {
 public:
-    vector<int> vc;
-    int current = 0;
+    stack<TreeNode*> stk;
     BSTIterator(TreeNode* root) {
-        dfs(root);
+        pushNode(root);
     }
     
     int next() {
-        current++;
-        return vc[current-1];
+        TreeNode* current = stk.top();
+        stk.pop();
+        if(current->right)  pushNode(current->right);
+        return current->val;
+
     }
     
-    bool hasNext() {
-        if(current <= vc.size()-1) return true;
-        return false;
+    bool hasNext() {   
+        return !stk.empty();
     }
-
-    void dfs(TreeNode* node){
-        if(!node)   return;
-        dfs(node->left);
-        vc.push_back(node->val);
-        dfs(node->right);
+private:
+    void pushNode(TreeNode* node){
+        while(node){
+            stk.push(node);
+            node = node->left;
+        }
     }
 };
 
