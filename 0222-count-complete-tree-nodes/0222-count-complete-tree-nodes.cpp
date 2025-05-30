@@ -11,26 +11,21 @@
  */
 class Solution {
 public:
+    int getDepth(TreeNode* node, bool isLeft){
+        int depth = 0;
+        while(node){
+            if(isLeft)  node = node->left;
+            else    node = node->right;
+            depth++;
+        }
+        return depth;
+    }
     int countNodes(TreeNode* root) {
         if(!root)   return 0;
-        else if(!root->left && !root->right)    return 1;
-        queue<TreeNode*> q;
-        q.push(root);
-        int level = 0;
-        while(!q.empty()){
-            level++;
-            int n = q.size();
-            int child = 0;
-            for(int i=0; i<n; i++){
-                TreeNode* node = q.front();
-                q.pop();
-                if(!node->left) return pow(2, level)-1+child;
-                else if(!node->right)   return pow(2, level)-1+child+1;
-                q.push(node->left);
-                q.push(node->right);
-                child += 2;
-            }
-        }
-        return pow(2, level)-1;
+        int l = getDepth(root->left, true);
+        int r = getDepth(root->right, false);
+
+        if(l == r)  return pow(2, l+1) - 1;
+        else    return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
