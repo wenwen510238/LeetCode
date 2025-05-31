@@ -18,7 +18,6 @@ public:
         q.push(root);
         while(!q.empty()){
             int n = q.size();
-            double avg = 0.0;
             double sum = 0;
             for(int i=0; i<n; i++){
                 TreeNode* node = q.front();
