@@ -19,20 +19,22 @@ public:
 
         q.push(root);
         while(!q.empty()){
-            int n = q.size();
-            deque<int> deq;
+            int n = q.size(), idx;
+            vector<int> level(n);
 
             for(int i=0; i<n; i++){
                 TreeNode* node = q.front();
                 q.pop();
+                
+                if(leftToRight) idx = i;
+                else   idx = n-i-1;
 
-                if(leftToRight) deq.push_back(node->val); 
-                else    deq.push_front(node->val);
+                level[idx] = node->val;
 
                 if(node->left)  q.push(node->left);
                 if(node->right)  q.push(node->right);
             }
-            res.push_back(vector<int>(deq.begin(), deq.end()));
+            res.push_back(level);
             leftToRight = !leftToRight;
         }
         return res;
