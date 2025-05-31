@@ -12,23 +12,20 @@
 class Solution {
 public:
     int minNum = INT_MAX;
+    TreeNode* prev = nullptr;
     int getMinimumDifference(TreeNode* root) {
-        vector<int> vc;
-        inOrder(root, vc);
-        int res = INT_MAX;
-        for(int i=1; i<vc.size(); i++){
-            res = min(res, abs(vc[i]-vc[i-1]));
-        }
-        return res;
+        inOrder(root);
+        return minNum;
     }
-    void inOrder(TreeNode* root, vector<int>& vc){
+    void inOrder(TreeNode* root){
         if(!root)   return ;
-        inOrder(root->left, vc);
-        vc.push_back(root->val);
-        inOrder(root->right, vc);
+
+        inOrder(root->left);
+
+        if(prev)    minNum = min(minNum, abs(root->val - prev->val));
+        
+        prev = root;
+        inOrder(root->right);
     }
 
 };
-//         236
-//   104        701
-//       227         911
