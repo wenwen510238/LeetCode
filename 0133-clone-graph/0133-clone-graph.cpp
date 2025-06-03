@@ -21,35 +21,15 @@ public:
 
 class Solution {
 public:
+    unordered_map<Node*, Node*> visit;
     Node* cloneGraph(Node* node) {
         if(!node)   return nullptr;
-        Node* res = new Node(node->val);
-        unordered_map<Node*, Node*> visit;
-        queue<Node*> qu;
-
-        // cloneNode(node, res);
+        if(visit.count(node))   return visit[node];
         Node* clone = new Node(node->val);
         visit[node] = clone;
-        qu.push(node);
-        while(!qu.empty()){
-            Node* tmp = qu.front();
-            qu.pop();
-            for(auto neighbor: tmp->neighbors){
-                if(!visit.count(neighbor)){
-                    Node* newNode = new Node(neighbor->val);
-                    visit[neighbor] = newNode;
-                    visit[tmp]->neighbors.push_back(newNode);
-                    qu.push(neighbor);
-                }
-                else    visit[tmp]->neighbors.push_back(visit[neighbor]);
-            }
+        for(auto neighbor: node->neighbors){
+            clone->neighbors.push_back(cloneGraph(neighbor));
         }
-
-        return visit[node];
-    }
-    void cloneGraph(Node* origin, Node* res){
-        for(int i=0; i<origin->neighbors.size(); i++){
-            
-        }
+        return clone;
     }
 };
