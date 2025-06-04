@@ -2,7 +2,7 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         if(prerequisites.size() == 0)   return true;
-        unordered_map<int, vector<int>> graph;
+        vector<vector<int>> graph(numCourses);
         for(auto pre: prerequisites){
             graph[pre[1]].push_back(pre[0]);
         }
@@ -13,7 +13,7 @@ public:
         return true;
     
     }
-    bool dfs(int current, unordered_map<int, vector<int>>& graph, vector<int>& visit){
+    bool dfs(int current, vector<vector<int>>& graph, vector<int>& visit){
         if(visit[current] == 1) return true;
         else if(visit[current] == -1)   return false;
         
