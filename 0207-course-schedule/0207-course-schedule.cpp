@@ -18,8 +18,8 @@ public:
         else if(visit[current] == -1)   return false;
         
         visit[current] = -1;//visiting
-        for(int i=0; i<graph[current].size(); i++){
-            if(!dfs(graph[current][i], graph, visit))   return false;
+        for(int neighbor: graph[current]){
+            if(!dfs(neighbor, graph, visit))   return false;
         }
         visit[current] = 1;//done
         return true;
