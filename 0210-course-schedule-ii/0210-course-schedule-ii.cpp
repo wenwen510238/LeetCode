@@ -1,29 +1,29 @@
 class Solution {
 public:
+    unordered_map<int, vector<int>> graph;
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        unordered_map<int, vector<int>> graph;
-        vector<int> inDegree(numCourses, 0);
         vector<int> res;
         for(auto& pre: prerequisites){
             graph[pre[1]].push_back(pre[0]);
-            inDegree[pre[0]]++;
         }
-        
-        queue<int> canHave;
+        vector<int> visit(numCourses, 0);
         for(int i=0; i<numCourses; i++){
-            if(inDegree[i] == 0)    canHave.push(i);
+            if(!dfs(i, visit, res))  return {};
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+
+    bool dfs(int current, vector<int>& visit, vector<int>& res){
+        if(visit[current] == -1)    return false;
+        else if(visit[current] == 1)    return true;
+        visit[current] = -1;
+        for(auto& nei: graph[current]){
+            if(!dfs(nei, visit, res))   return false;
         }
 
-        while(!canHave.empty()){
-            int current = canHave.front();
-            canHave.pop();
-            res.push_back(current);
-            for(int c: graph[current]){
-                inDegree[c]--;
-                if(inDegree[c] == 0)    canHave.push(c);
-            }
-        }
-        if(res.size() == numCourses)    return res;
-        return {};
+        res.push_back(current);
+        visit[current] = 1;
+        return true;
     }
 };
