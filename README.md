@@ -66,6 +66,7 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/wenwen510238/LeetCode/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/wenwen510238/LeetCode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/wenwen510238/LeetCode/tree/master/0055-jump-game) |
@@ -271,6 +272,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/wenwen510238/LeetCode/tree/master/0035-search-insert-position) |
 | [0098-validate-binary-search-tree](https://github.com/wenwen510238/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0222-count-complete-tree-nodes](https://github.com/wenwen510238/LeetCode/tree/master/0222-count-complete-tree-nodes) |
