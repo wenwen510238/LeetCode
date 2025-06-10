@@ -11,8 +11,7 @@ public:
     int getNext(int n){
         int sum = 0;
         while(n){
-            int digit = n%10;
-            sum += digit * digit;
+            sum += pow((n % 10), 2);
             n /= 10;
         }
         return sum;
