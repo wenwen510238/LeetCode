@@ -33,6 +33,7 @@
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
 ## Recursion
 |  |
 | ------- |
@@ -52,6 +53,7 @@
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 ## Math
@@ -61,6 +63,7 @@
 | [0012-integer-to-roman](https://github.com/wenwen510238/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/wenwen510238/LeetCode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Array
 |  |
