@@ -51,6 +51,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/wenwen510238/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/wenwen510238/LeetCode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/wenwen510238/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
@@ -92,6 +93,7 @@
 | [0130-surrounded-regions](https://github.com/wenwen510238/LeetCode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/wenwen510238/LeetCode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/wenwen510238/LeetCode/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/wenwen510238/LeetCode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
@@ -113,6 +115,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/wenwen510238/LeetCode/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -128,6 +131,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/wenwen510238/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -138,6 +142,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/wenwen510238/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/wenwen510238/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/wenwen510238/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 ## Stack
 |  |
 | ------- |
@@ -345,4 +350,5 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/wenwen510238/LeetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
