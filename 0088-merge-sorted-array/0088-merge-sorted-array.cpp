@@ -1,24 +1,23 @@
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        int m_ind = m-1;
-        int n_ind = n-1;
+        int p1 = m - 1, p2 = n - 1;
         int total = m+n-1;
-        while(m_ind >= 0 && n_ind >= 0){
-            if(nums1[m_ind] <= nums2[n_ind]){
-                nums1[total] = nums2[n_ind];
-                n_ind --;
+        while(p1>=0 && p2>=0){
+            if(nums1[p1] <= nums2[p2]){
+                nums1[total] = nums2[p2];
+                p2--;
             }
             else{
-                nums1[total] = nums1[m_ind];
-                m_ind --;
+                nums1[total] = nums1[p1];
+                p1--;
             }
             total--;
         }
-        while(n_ind >= 0){
-            nums1[total] = nums2[n_ind];
+        while(p2 >= 0){
+            nums1[total] = nums2[p2];
+            p2--;
             total--;
-            n_ind--;
         }
     }
 };
