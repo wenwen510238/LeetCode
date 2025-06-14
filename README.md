@@ -34,6 +34,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
+| [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 ## Recursion
 |  |
 | ------- |
@@ -119,6 +120,7 @@
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 ## Simulation
@@ -147,6 +149,7 @@
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/wenwen510238/LeetCode/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 ## Stack
 |  |
 | ------- |
