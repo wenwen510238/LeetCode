@@ -12,35 +12,32 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head)   return nullptr;
+        ListNode dummy(0);
+        dummy.next = head;
+        ListNode* current = head;
 
-        ListNode* slow = head;
-        ListNode* fast = head;
-        int total = 0;
-
-        // 1. count total length
-        while(fast){
-            total++;
-            fast = fast->next;
+        int totalNum = 0;
+        while(current){
+            current = current->next;
+            totalNum++;
         }
-        fast = head;
-        k %= total;
-
-        // 2. fast先往前走k+1布(確保slow, fast中間隔k+1個)
+        k %= totalNum;
         if(k == 0)  return head;
+        current = &dummy;
+        ListNode* slow = &dummy;
+        ListNode* fast = &dummy;
         for(int i=0; i<k; i++){
             fast = fast->next;
         }
 
-        // 3. slow到後面數來第k+1個，fast到最後一個list
         while(fast->next){
             fast = fast->next;
             slow = slow->next;
         }
 
-        // 4. reconnect list
-        ListNode* res = slow->next;
+        ListNode* next = slow->next;
         slow->next = nullptr;
         fast->next = head;
-        return res;
+        return next;
     }
 };
