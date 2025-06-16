@@ -12,8 +12,6 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head)   return nullptr;
-        ListNode dummy(0);
-        dummy.next = head;
         ListNode* current = head;
 
         int totalNum = 0;
@@ -23,9 +21,8 @@ public:
         }
         k %= totalNum;
         if(k == 0)  return head;
-        current = &dummy;
-        ListNode* slow = &dummy;
-        ListNode* fast = &dummy;
+        ListNode* slow = head;
+        ListNode* fast = head;
         for(int i=0; i<k; i++){
             fast = fast->next;
         }
