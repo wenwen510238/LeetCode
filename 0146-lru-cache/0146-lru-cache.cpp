@@ -1,74 +1,40 @@
 class LRUCache {
 public:
-    struct Node{
-        int val;
-        int key;
-        Node* next;
-        Node* prev;
-        Node(int k, int v){
-            key = k;
-            val = v;
-        }
-    };
-
-    int cap;
-    unordered_map<int, Node*> hash;
-
-    Node* head = new Node(-1, -1);
-    Node* tail = new Node(-1, -1);
-
+    list<pair<int, int>> node;
+    unordered_map<int, list<pair<int, int>>::iterator> cache;
     LRUCache(int capacity) {
         cap = capacity;
-        head->next = tail;
-        tail->prev = head;
     }
     
-    void insertTohead(Node* newNode){
-        newNode->next = head->next;
-        newNode->prev = head;
-
-        head->next->prev = newNode;
-        head->next = newNode;
-    }
-
-    void deleteNode(Node* delNode){
-        delNode->prev->next = delNode->next;
-        delNode->next->prev = delNode->prev;
-        delete delNode;
-    }
-
-    void moveTohead(Node* node){
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-        insertTohead(node);
-    }
-
     int get(int key) {
-        if(hash.find(key) != hash.end()){
-            Node* res = hash[key];
-            int ans = res->val;
-
-            moveTohead(res);
-
-            return ans;
-        }
-        return -1;
+        if(cache.find(key) == cache.end())  return -1;
+        auto iter = cache[key];
+        int val = iter->second;
+        node.erase(iter);
+        node.push_front({key, val});
+        cache[key] = node.begin();
+        return val;
     }
     
-    void put(int key, int value) {  
-        if(hash.find(key) != hash.end()){
-            hash[key]->val = value;
-            moveTohead(hash[key]);
+    void put(int key, int value) {
+        if(cache.find(key) != cache.end()){
+            auto iter = cache[key];
+            node.erase(iter);
+            node.push_front({key, value});
+            cache[key] = node.begin();
         }
         else{
-            if(hash.size() == cap){
-                hash.erase(tail->prev->key);
-                deleteNode(tail->prev);
+            if(cache.size() == cap){
+                int oldKey = node.back().first;
+                node.pop_back();
+                cache.erase(oldKey);
             }
-            insertTohead(new Node(key, value));
-            hash[key] = head->next;
-        }   
+            node.push_front({key, value});
+            cache[key] = node.begin();
+        }
     }
+private:
+    int cap;
 };
 
 /**
