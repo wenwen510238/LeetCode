@@ -126,6 +126,7 @@
 | [0125-valid-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
+| [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -232,6 +233,7 @@
 | [0226-invert-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/wenwen510238/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
@@ -255,6 +257,7 @@
 | [0226-invert-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/wenwen510238/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -303,6 +306,7 @@
 | [0226-invert-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/wenwen510238/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Search Tree
@@ -368,4 +372,8 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/wenwen510238/LeetCode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
