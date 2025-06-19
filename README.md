@@ -258,6 +258,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/wenwen510238/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0310-minimum-height-trees](https://github.com/wenwen510238/LeetCode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -278,6 +279,7 @@
 | [0207-course-schedule](https://github.com/wenwen510238/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/wenwen510238/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0310-minimum-height-trees](https://github.com/wenwen510238/LeetCode/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/wenwen510238/LeetCode/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -353,6 +355,7 @@
 | [0133-clone-graph](https://github.com/wenwen510238/LeetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/wenwen510238/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/wenwen510238/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/wenwen510238/LeetCode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 ## Shortest Path
 |  |
@@ -363,6 +366,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/wenwen510238/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/wenwen510238/LeetCode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/wenwen510238/LeetCode/tree/master/0310-minimum-height-trees) |
 ## Sliding Window
 |  |
 | ------- |
