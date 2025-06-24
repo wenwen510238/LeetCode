@@ -169,6 +169,7 @@
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -190,6 +191,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -241,6 +243,7 @@
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0337-house-robber-iii](https://github.com/wenwen510238/LeetCode/tree/master/0337-house-robber-iii) |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
@@ -267,6 +270,7 @@
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0310-minimum-height-trees](https://github.com/wenwen510238/LeetCode/tree/master/0310-minimum-height-trees) |
 | [0337-house-robber-iii](https://github.com/wenwen510238/LeetCode/tree/master/0337-house-robber-iii) |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/wenwen510238/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -342,6 +346,7 @@
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -392,4 +397,8 @@
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
+## Queue
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
