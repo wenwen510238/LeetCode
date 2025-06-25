@@ -12,16 +12,21 @@
 class Solution {
 public:
     int pathSum(TreeNode* root, int targetSum) {
-        if(!root)   return 0;
-        return countFromNode(root, targetSum) + pathSum(root->left, targetSum) + pathSum(root->right, targetSum);
+        unordered_map<long long, int> prefixSum;
+        prefixSum[0] = 1;
+        return dfs(root, targetSum, prefixSum, 0);
     }
-    int countFromNode(TreeNode* node, long long target){
+    int dfs(TreeNode* node, int target, unordered_map<long long, int>& prefixSum, long long curr){
         if(!node)   return 0;
-        int cnt = 0;
-        if(node->val == target) cnt++;
+        
+        curr += node->val;
+        int cnt = prefixSum[curr - target];
+        
+        prefixSum[curr]++;
 
-        target -= node->val;
-        cnt+= countFromNode(node->left, target) + countFromNode(node->right, target);
+        cnt += dfs(node->left, target, prefixSum, curr) + dfs(node->right, target, prefixSum, curr);
+
+        prefixSum[curr]--;
         return cnt;
     }
 };
