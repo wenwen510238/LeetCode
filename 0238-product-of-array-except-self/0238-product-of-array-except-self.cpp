@@ -5,6 +5,10 @@ public:
         for(auto& num: nums){
             if(num != 0)    product *= num;
             else zero++;
+            if(zero > 1){
+                vector<int> res(nums.size(), 0);
+                return res;
+            }
         }
 
         for(auto& num: nums){
