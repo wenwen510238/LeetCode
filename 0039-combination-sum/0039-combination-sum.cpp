@@ -12,12 +12,13 @@ public:
             res.push_back(path);
             return;
         }
-        if(target < 0) return;
+        if(target < 0 || idx >= candidates.size()) return;
 
-        for(int i=idx; i<candidates.size(); i++){
-            path.push_back(candidates[i]);
-            dfs(candidates, target-candidates[i], path , i);
-            path.pop_back();
-        }
+        // for(int i=idx; i<candidates.size(); i++){
+        path.push_back(candidates[idx]);
+        dfs(candidates, target-candidates[idx], path , idx);
+        path.pop_back();
+        dfs(candidates, target, path , idx+1);
+        // }
     }
 };
