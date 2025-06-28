@@ -89,6 +89,7 @@
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/wenwen510238/LeetCode/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/wenwen510238/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/wenwen510238/LeetCode/tree/master/0057-insert-interval) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/wenwen510238/LeetCode/tree/master/0074-search-a-2d-matrix) |
@@ -206,6 +207,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/wenwen510238/LeetCode/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/wenwen510238/LeetCode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
