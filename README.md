@@ -62,6 +62,7 @@
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
+| [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/wenwen510238/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -114,6 +115,7 @@
 | [0198-house-robber](https://github.com/wenwen510238/LeetCode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/wenwen510238/LeetCode/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/wenwen510238/LeetCode/tree/master/0213-house-robber-ii) |
+| [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/wenwen510238/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/wenwen510238/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
@@ -213,6 +215,7 @@
 | [0075-sort-colors](https://github.com/wenwen510238/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
 ## Counting Sort
 |  |
