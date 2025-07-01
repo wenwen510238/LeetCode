@@ -9,9 +9,7 @@ public:
     }
     void reverse(vector<int>& nums, int l, int r){
         while(l < r){
-            int tmp = nums[l];
-            nums[l] = nums[r];
-            nums[r] = tmp;
+            swap(nums[l], nums[r]);
             l++;
             r--;
         }
