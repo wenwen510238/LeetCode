@@ -52,6 +52,7 @@
 | [0001-two-sum](https://github.com/wenwen510238/LeetCode/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/wenwen510238/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/wenwen510238/LeetCode/tree/master/0013-roman-to-integer) |
+| [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/wenwen510238/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/wenwen510238/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/wenwen510238/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -92,6 +93,7 @@
 | [0039-combination-sum](https://github.com/wenwen510238/LeetCode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
+| [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/wenwen510238/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/wenwen510238/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/wenwen510238/LeetCode/tree/master/0057-insert-interval) |
@@ -137,6 +139,7 @@
 | [0013-roman-to-integer](https://github.com/wenwen510238/LeetCode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/wenwen510238/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/wenwen510238/LeetCode/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0125-valid-palindrome) |
@@ -217,6 +220,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/wenwen510238/LeetCode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/wenwen510238/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/wenwen510238/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0088-merge-sorted-array) |
