@@ -8,9 +8,7 @@ public:
             sort(tmp.begin(), tmp.end());
             if(!anagramMap.count(tmp)){
                 anagramMap[tmp] = res.size();
-                vector<string> vc;
-                vc.push_back(str);
-                res.push_back(vc);
+                res.push_back({str});
             }
             else{
                 int idx = anagramMap[tmp];
