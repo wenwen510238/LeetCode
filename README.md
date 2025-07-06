@@ -67,6 +67,7 @@
 | [0219-contains-duplicate-ii](https://github.com/wenwen510238/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Math
@@ -149,6 +150,7 @@
 | [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Simulation
 |  |
 | ------- |
@@ -417,6 +419,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/wenwen510238/LeetCode/tree/master/0219-contains-duplicate-ii) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Memoization
 |  |
 | ------- |
