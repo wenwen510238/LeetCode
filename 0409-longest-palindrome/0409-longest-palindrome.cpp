@@ -1,16 +1,15 @@
 class Solution {
 public:
     int longestPalindrome(string s) {
-        unordered_set<char> letter;
+        int letter[128] = {0};
         int res = 0;
-        for(auto& c: s){
-            if(!letter.count(c)) letter.insert(c);
-            else{
-                res+=2;
-                letter.erase(c);
-            }
-        } 
-        if(letter.size() > 0)   return res+1;
+
+        for(auto& c: s) letter[c]++;
+        
+        for(int i=0; i<128; i++){
+            res += (letter[i] / 2) * 2;
+        }
+        if(s.size() > res)   return res + 1;
         return res;
     }
 };
