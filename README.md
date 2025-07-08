@@ -20,6 +20,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/wenwen510238/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/wenwen510238/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/wenwen510238/LeetCode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/wenwen510238/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -136,6 +137,7 @@
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/wenwen510238/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/wenwen510238/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/wenwen510238/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/wenwen510238/LeetCode/tree/master/0012-integer-to-roman) |
@@ -170,6 +172,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/wenwen510238/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/wenwen510238/LeetCode/tree/master/0055-jump-game) |
