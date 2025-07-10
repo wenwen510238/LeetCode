@@ -1,0 +1,19 @@
+class Solution {
+public:
+    bool isValidSudoku(vector<vector<char>>& board) {
+        bool row[9][9] = {}, col[9][9] = {}, box[9][9] = {};
+
+        for(int i=0; i<board.size(); i++){
+            for(int j=0; j<board[i].size(); j++){
+                if(board[i][j] == '.')  continue;
+
+                int num = board[i][j] - '1';
+                int k = i/3*3 + (j/3);
+                if(row[i][num] || col[j][num] || box[k][num])   return false;
+
+                row[i][num] = col[j][num] = box[k][num] = true;
+            }
+        }
+        return true;
+    }
+};
