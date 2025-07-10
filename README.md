@@ -136,6 +136,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/wenwen510238/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 ## String
 |  |
@@ -384,6 +385,7 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/wenwen510238/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0300-longest-increasing-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 ## Iterator
 |  |
 | ------- |
