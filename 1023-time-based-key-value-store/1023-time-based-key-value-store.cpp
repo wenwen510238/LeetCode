@@ -12,14 +12,18 @@ public:
     string get(string key, int timestamp) {
         if(keyMap.find(key) == keyMap.end())    return "";
         auto& valToTime = keyMap[key];
-        int l = 0, r = valToTime.size()-1;
-        while(l <= r){
+        int l = 0, r = valToTime.size();
+        int ansIdx = -1;
+        while(l < r){
             int mid = (l + r) / 2;
-            if(valToTime[mid].second <= timestamp) l = mid + 1;
-            else r = mid - 1;
+            if(valToTime[mid].second <= timestamp){
+                ansIdx = mid;
+                l = mid + 1;
+            }
+            else r = mid;
         }
-        if(r < 0)   return "";
-        return valToTime[r].first; 
+        if(ansIdx == -1)   return "";
+        return valToTime[ansIdx].first; 
     }
 };
 
