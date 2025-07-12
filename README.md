@@ -73,6 +73,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
 | ------- |
@@ -160,6 +161,7 @@
 | [0409-longest-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
 |  |
 | ------- |
@@ -226,6 +228,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Randomized
 |  |
 | ------- |
@@ -387,6 +390,7 @@
 | [0300-longest-increasing-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
+| [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Iterator
 |  |
 | ------- |
