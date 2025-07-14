@@ -21,14 +21,15 @@ public:
 
 class Solution {
 public:
-    unordered_map<Node*, Node*> visit;
+    unordered_map<Node*, Node*> oldNewMapping;
     Node* cloneGraph(Node* node) {
+        
         if(!node)   return nullptr;
-        if(visit.count(node))   return visit[node];
+        if(oldNewMapping.count(node))   return oldNewMapping[node];
         Node* clone = new Node(node->val);
-        visit[node] = clone;
-        for(auto neighbor: node->neighbors){
-            clone->neighbors.push_back(cloneGraph(neighbor));
+        oldNewMapping[node] = clone;
+        for(auto& nei: node->neighbors){
+            clone->neighbors.push_back(cloneGraph(nei));
         }
         return clone;
     }
