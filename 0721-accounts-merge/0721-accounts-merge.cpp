@@ -1,43 +1,42 @@
 class Solution {
 public:
+    unordered_map<string, string> emailToName;
+    unordered_map<string, string> parent;
+
+    string find(string s){
+        if(parent[s] != s) parent[s] = find(parent[s]);  
+        return parent[s];
+    }
+
+    void unite(string a, string b){
+        parent[find(a)] = find(b);
+    }
+
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        unordered_map<string, vector<string>> emailGraph;
-        unordered_map<string, string> emailToName;
         for(auto& acc: accounts){
             for(int i=1; i<acc.size(); i++){
                 emailToName[acc[i]] = acc[0];
-                emailGraph[acc[i]];
-                if(i != 1){
-                    emailGraph[acc[1]].push_back(acc[i]);
-                    emailGraph[acc[i]].push_back(acc[1]);
-                }
+                parent[acc[i]] = acc[i];
             }
         }
 
-        unordered_set<string> visit;
-        vector<vector<string>> res;
-        for(auto& [email, _]: emailGraph){
-            if(visit.count(email))  continue;
-
-            vector<string> comp;
-            queue<string> q;
-            q.push(email);
-            visit.insert(email);
-
-            while(!q.empty()){
-                string node = q.front();
-                q.pop();
-                comp.push_back(node);
-                for(auto& nei: emailGraph[node]){
-                    if(!visit.count(nei)){
-                        visit.insert(nei);
-                        q.push(nei);
-                    }
-                }
+        for(auto& acc: accounts){
+            for (int i = 2; i < acc.size(); ++i) {
+                unite(acc[i - 1], acc[i]);
             }
-            sort(comp.begin(), comp.end());
-            comp.insert(comp.begin(), emailToName[email]);
-            res.push_back(comp);
+        }
+
+        unordered_map<string, vector<string>> rootToEmails;
+        for(auto& [email, _]: emailToName){
+            string root = find(email);
+            rootToEmails[root].push_back(email);
+        }
+
+        vector<vector<string>> res;
+        for(auto& [root, emails]: rootToEmails){
+            sort(emails.begin(), emails.end());
+            emails.insert(emails.begin(), emailToName[root]);
+            res.push_back(emails);
         }
         return res;
     }
