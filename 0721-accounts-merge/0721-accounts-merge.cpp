@@ -8,8 +8,8 @@ public:
                 emailToName[acc[i]] = acc[0];
                 emailGraph[acc[i]];
                 if(i != 1){
-                    emailGraph[acc[i-1]].push_back(acc[i]);
-                    emailGraph[acc[i]].push_back(acc[i-1]);
+                    emailGraph[acc[1]].push_back(acc[i]);
+                    emailGraph[acc[i]].push_back(acc[1]);
                 }
             }
         }
