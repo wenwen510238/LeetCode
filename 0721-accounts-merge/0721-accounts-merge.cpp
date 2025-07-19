@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<int> parent, rank;
     unordered_map<string, int> emailToId;
-    vector<string> idToEmail;               
     unordered_map<string, string> emailToName;
 
     int find(int x) {
@@ -33,7 +32,6 @@ public:
                 string& email = acc[i];
                 if (!emailToId.count(email)) {
                     emailToId[email] = id++;
-                    idToEmail.push_back(email);
                     parent.push_back(parent.size());
                     rank.push_back(0);
                 }
