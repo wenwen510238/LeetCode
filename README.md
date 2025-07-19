@@ -73,6 +73,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
@@ -137,6 +138,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/wenwen510238/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
@@ -162,6 +164,7 @@
 | [0409-longest-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
 |  |
@@ -245,6 +248,7 @@
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 ## Counting Sort
 |  |
 | ------- |
@@ -320,6 +324,7 @@
 | [0437-path-sum-iii](https://github.com/wenwen510238/LeetCode/tree/master/0437-path-sum-iii) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -344,6 +349,7 @@
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
 ## Binary Tree
@@ -409,6 +415,7 @@
 | [0130-surrounded-regions](https://github.com/wenwen510238/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/wenwen510238/LeetCode/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
+| [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 ## Matrix
 |  |
 | ------- |
