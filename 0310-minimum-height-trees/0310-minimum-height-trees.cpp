@@ -17,19 +17,23 @@ public:
             if(degree[i] == 1)  q.push(i);
         }
 
+        int remain = n;
         vector<int> res;
-        while(!q.empty()){
+        while(remain > 2){
             int size = q.size();
-            res.clear();
+            remain -= size;
             for(int i=0; i<size; i++){
                 int curr = q.front();
                 q.pop();
-                res.push_back(curr);
                 for(auto& nei: graph[curr]){
                     degree[nei]--;
                     if(degree[nei] == 1) q.push(nei);
                 }
             }
+        }
+        while(!q.empty()){
+            res.push_back(q.front());
+            q.pop();
         }
         return res;
     }
