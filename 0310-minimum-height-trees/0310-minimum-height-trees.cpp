@@ -3,7 +3,7 @@ public:
     vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) {
         if(n == 1)  return {0};
         vector<int> degree(n, 0);
-        unordered_map<int, vector<int>> graph;
+        vector<vector<int>> graph(n);
 
         for(auto& edge: edges){
             degree[edge[0]] ++;
