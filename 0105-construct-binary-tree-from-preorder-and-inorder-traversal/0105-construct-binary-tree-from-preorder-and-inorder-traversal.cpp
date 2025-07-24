@@ -11,28 +11,25 @@
  */
 class Solution {
 public:
-    unordered_map<int, int> inorder_index;
-
+    unordered_map<int, int> inorderMap;
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         for(int i=0; i<inorder.size(); i++){
-            inorder_index[inorder[i]] = i;
-        } 
-        return dfs(preorder, 0, preorder.size()-1, inorder, 0, inorder.size());
+            inorderMap[inorder[i]] = i;
+        }
+        return dfs(preorder, 0, preorder.size()-1, inorder, 0);
     }
 
-    TreeNode* dfs(vector<int>& preorder, int pre_left, int pre_right, vector<int>& inorder, int in_left, int in_right){
-        if(pre_left > pre_right)    return nullptr;
+    TreeNode* dfs(vector<int>& preorder, int preLeft, int preRight, vector<int>& inorder, int inLeft){
+        if(preLeft > preRight)  return nullptr;
 
-        int root_val = preorder[pre_left];
-        TreeNode* root = new TreeNode(root_val);
+        int val = preorder[preLeft];
+        TreeNode* node = new TreeNode(val);
 
-        int idx = inorder_index[root_val];
-        int leftLen = idx - in_left; //這個root左邊有多少個node
+        int inorderIdx = inorderMap[val];
+        int len = inorderIdx - inLeft;
 
-        root->left = dfs(preorder, pre_left + 1, pre_left + leftLen, inorder, in_left, idx - 1);
-        root->right = dfs(preorder, pre_left + leftLen + 1, pre_right , inorder, idx + 1, pre_right);
-
-        return root;
-
+        node->left = dfs(preorder, preLeft + 1, preLeft + len, inorder, inLeft);
+        node->right = dfs(preorder, preLeft + len + 1, preRight, inorder, inorderIdx + 1);
+        return node;
     }
 };
