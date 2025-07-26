@@ -23,20 +23,11 @@ public:
         target -= root->val;
         path.push_back(root->val);
 
-        if(!root->left && !root->right){
-            if(target == 0){
-                res.push_back(path);
-            }
-            return;
-        } 
-        if(root->left){
-            dfs(root->left, target, path);
-            path.pop_back();
+        if(!root->left && !root->right && target == 0)  res.push_back(path);
+        else{
+            if(root->left)  dfs(root->left, target, path);
+            if(root->right) dfs(root->right, target, path);
         }
-        if(root->right){
-            dfs(root->right, target, path);
-            path.pop_back();
-
-        }
+        path.pop_back();
     }
 };
