@@ -68,6 +68,7 @@
 | [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/wenwen510238/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0383-ransom-note](https://github.com/wenwen510238/LeetCode/tree/master/0383-ransom-note) |
 | [0409-longest-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -159,6 +160,7 @@
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0383-ransom-note](https://github.com/wenwen510238/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0409-longest-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0409-longest-palindrome) |
@@ -254,6 +256,7 @@
 | ------- |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
+| [0383-ransom-note](https://github.com/wenwen510238/LeetCode/tree/master/0383-ransom-note) |
 ## Divide and Conquer
 |  |
 | ------- |
