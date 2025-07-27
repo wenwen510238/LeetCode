@@ -298,6 +298,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -331,6 +332,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 ## Breadth-First Search
 |  |
@@ -356,6 +358,7 @@
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
@@ -389,6 +392,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/wenwen510238/LeetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/wenwen510238/LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
