@@ -110,6 +110,7 @@
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/wenwen510238/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/wenwen510238/LeetCode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/wenwen510238/LeetCode/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/wenwen510238/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/wenwen510238/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -421,6 +422,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/wenwen510238/LeetCode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/wenwen510238/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Union Find
 |  |
@@ -474,6 +476,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/wenwen510238/LeetCode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/wenwen510238/LeetCode/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/wenwen510238/LeetCode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/wenwen510238/LeetCode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Queue
