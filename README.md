@@ -101,6 +101,7 @@
 | [0039-combination-sum](https://github.com/wenwen510238/LeetCode/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/wenwen510238/LeetCode/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/wenwen510238/LeetCode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/wenwen510238/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/wenwen510238/LeetCode/tree/master/0055-jump-game) |
@@ -472,6 +473,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/wenwen510238/LeetCode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/wenwen510238/LeetCode/tree/master/0046-permutations) |
 | [0113-path-sum-ii](https://github.com/wenwen510238/LeetCode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Queue
