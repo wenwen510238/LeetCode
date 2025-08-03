@@ -18,6 +18,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/wenwen510238/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/wenwen510238/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
+| [0328-odd-even-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
