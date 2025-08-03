@@ -13,26 +13,20 @@ public:
     ListNode* swapPairs(ListNode* head) {
         ListNode dummy(0);
         dummy.next = head;
-        ListNode* reservePrev = &dummy;
-        ListNode* prev = nullptr;
-        ListNode* next;
+        ListNode* prev = &dummy;
         
-        while(head){
-            if(head->next){
-                for(int i=0; i<2; i++){
-                    next = head->next;
-                    head->next = prev;
-                    prev = head;
-                    head = next;
-                }
+        while(head && head->next){
+            ListNode* first = head;
+            ListNode* second = head->next;
 
-                ListNode* tmp = reservePrev->next;
-                reservePrev->next->next = head;
-                reservePrev->next = prev;
-                prev = tmp;
-                reservePrev = prev;
-            }
-            else break;
+            // 交換節點
+            first->next = second->next;
+            second->next = first;
+            prev->next = second;
+
+            // 移動指標
+            prev = first;
+            head = first->next;
         }
 
         return dummy.next;
