@@ -221,6 +221,7 @@
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Monotonic Stack
 |  |
@@ -247,6 +248,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
+| [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
@@ -496,6 +498,7 @@
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Interactive
 |  |
