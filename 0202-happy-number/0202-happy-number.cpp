@@ -1,20 +1,18 @@
 class Solution {
 public:
     bool isHappy(int n) {
-        int slow = n;
-        int fast = getNext(n);
-        while(fast != 1 && slow != fast){
-            slow = getNext(slow);
-            fast = getNext(getNext(fast));
+        unordered_set<int> exist;
+        while(n!=1){
+            int add = 0;
+            while(n){
+                int squre = pow(n % 10, 2);
+                add += squre;
+                n /= 10;
+            }
+            if(exist.count(add)) return false;
+            else exist.insert(add);
+            n = add;
         }
-        return fast == 1;
-    }
-    int getNext(int n){
-        int sum = 0;
-        while(n){
-            sum += pow((n % 10), 2);
-            n /= 10;
-        }
-        return sum;
+        return true;
     }
 };
