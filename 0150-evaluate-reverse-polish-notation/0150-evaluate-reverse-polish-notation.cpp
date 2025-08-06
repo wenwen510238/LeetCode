@@ -3,16 +3,26 @@ public:
     int evalRPN(vector<string>& tokens) {
         stack<int> stk;
         for(auto& token: tokens){
-            if(token !=  "+" && token !=  "-" && token !=  "*" && token !=  "/" )    stk.push(stoi(token));
+            if(token.size() > 1 || isdigit(token[0]))    stk.push(stoi(token));
             else{
                 int num1 = stk.top();
                 stk.pop();
                 int num2 = stk.top();
                 stk.pop();
-                if(token == "+") stk.push(num2 + num1);
-                else if(token == "-") stk.push(num2 - num1);
-                else if(token == "*") stk.push(num2 * num1);
-                else if(token == "/") stk.push(num2 / num1);
+                switch(token[0]){
+                    case '+':  
+                        stk.push(num2 + num1);
+                        break;
+                    case '-': 
+                        stk.push(num2 - num1);
+                        break;
+                    case '*': 
+                        stk.push(num2 * num1);
+                        break;
+                    case '/': 
+                        stk.push(num2 / num1);
+                        break;
+                }
             }
         }
         return stk.top();
