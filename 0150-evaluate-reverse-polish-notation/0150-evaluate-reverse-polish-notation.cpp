@@ -9,9 +9,9 @@ public:
                 stk.pop();
                 int num2 = stk.top();
                 stk.pop();
-                if(token == "+") stk.push(num1 + num2);
+                if(token == "+") stk.push(num2 + num1);
                 else if(token == "-") stk.push(num2 - num1);
-                else if(token == "*") stk.push(num1 * num2);
+                else if(token == "*") stk.push(num2 * num1);
                 else if(token == "/") stk.push(num2 / num1);
             }
         }
