@@ -223,6 +223,7 @@
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/wenwen510238/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/wenwen510238/LeetCode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
@@ -250,6 +251,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/wenwen510238/LeetCode/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/wenwen510238/LeetCode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
