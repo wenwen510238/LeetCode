@@ -45,6 +45,7 @@
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
+| [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -182,12 +183,14 @@
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
+| [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 | [1023-time-based-key-value-store](https://github.com/wenwen510238/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/wenwen510238/LeetCode/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
+| [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 ## String Matching
 |  |
 | ------- |
@@ -227,6 +230,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
+| [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Monotonic Stack
 |  |
 | ------- |
