@@ -54,6 +54,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/wenwen510238/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/wenwen510238/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/wenwen510238/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0394-decode-string](https://github.com/wenwen510238/LeetCode/tree/master/0394-decode-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -179,6 +180,7 @@
 | [0257-binary-tree-paths](https://github.com/wenwen510238/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0383-ransom-note](https://github.com/wenwen510238/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/wenwen510238/LeetCode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/wenwen510238/LeetCode/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/wenwen510238/LeetCode/tree/master/0399-evaluate-division) |
 | [0409-longest-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/wenwen510238/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -231,6 +233,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
+| [0394-decode-string](https://github.com/wenwen510238/LeetCode/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/wenwen510238/LeetCode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Monotonic Stack
