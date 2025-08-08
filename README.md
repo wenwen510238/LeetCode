@@ -154,6 +154,7 @@
 | [0525-contiguous-array](https://github.com/wenwen510238/LeetCode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/wenwen510238/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
+| [0739-daily-temperatures](https://github.com/wenwen510238/LeetCode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
@@ -230,11 +231,13 @@
 | [0173-binary-search-tree-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/wenwen510238/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/wenwen510238/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
+| [0739-daily-temperatures](https://github.com/wenwen510238/LeetCode/tree/master/0739-daily-temperatures) |
 | [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/wenwen510238/LeetCode/tree/master/0739-daily-temperatures) |
 ## Greedy
 |  |
 | ------- |
