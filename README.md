@@ -96,6 +96,7 @@
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/wenwen510238/LeetCode/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/wenwen510238/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Array
 |  |
 | ------- |
@@ -158,6 +159,7 @@
 | [0739-daily-temperatures](https://github.com/wenwen510238/LeetCode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
 ## String
 |  |
@@ -283,6 +285,7 @@
 | [0217-contains-duplicate](https://github.com/wenwen510238/LeetCode/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/wenwen510238/LeetCode/tree/master/0274-h-index) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting Sort
 |  |
 | ------- |
@@ -295,6 +298,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/wenwen510238/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/wenwen510238/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/wenwen510238/LeetCode/tree/master/0169-majority-element) |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -519,4 +523,16 @@
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/wenwen510238/LeetCode/tree/master/0278-first-bad-version) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
