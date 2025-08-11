@@ -92,6 +92,7 @@
 | [0002-add-two-numbers](https://github.com/wenwen510238/LeetCode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/wenwen510238/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/wenwen510238/LeetCode/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/wenwen510238/LeetCode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/wenwen510238/LeetCode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/wenwen510238/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/wenwen510238/LeetCode/tree/master/0189-rotate-array) |
@@ -177,6 +178,7 @@
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/wenwen510238/LeetCode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/wenwen510238/LeetCode/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/wenwen510238/LeetCode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
@@ -196,6 +198,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/wenwen510238/LeetCode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/wenwen510238/LeetCode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
 | [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 ## String Matching
@@ -461,6 +464,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/wenwen510238/LeetCode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/wenwen510238/LeetCode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/wenwen510238/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Union Find
