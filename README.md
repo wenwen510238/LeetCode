@@ -184,6 +184,7 @@
 | [0058-length-of-last-word](https://github.com/wenwen510238/LeetCode/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/wenwen510238/LeetCode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/wenwen510238/LeetCode/tree/master/0068-text-justification) |
+| [0071-simplify-path](https://github.com/wenwen510238/LeetCode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/wenwen510238/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/wenwen510238/LeetCode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/wenwen510238/LeetCode/tree/master/0151-reverse-words-in-a-string) |
@@ -241,6 +242,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/wenwen510238/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/wenwen510238/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/wenwen510238/LeetCode/tree/master/0071-simplify-path) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/wenwen510238/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/wenwen510238/LeetCode/tree/master/0155-min-stack) |
