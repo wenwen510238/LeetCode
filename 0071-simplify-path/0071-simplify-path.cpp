@@ -14,10 +14,10 @@ public:
             else current += path[i];
         }
 
+        if(parts.empty()) return "/";
         for(int i=0; i<parts.size(); i++){
             res += parts[i] + '/' ;
         }
-        if(res == "/") return res;
         return res.substr(0, res.size()-1);
     }
 };
