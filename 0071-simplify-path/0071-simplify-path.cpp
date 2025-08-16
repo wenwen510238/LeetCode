@@ -18,7 +18,6 @@ public:
         else if(current != "" && current != "." && current != "..") stk.push(current);
 
         while(!stk.empty()){
-            cout<<stk.top()<<" ";
             res = "/" + stk.top() + res;
             stk.pop();
         }
