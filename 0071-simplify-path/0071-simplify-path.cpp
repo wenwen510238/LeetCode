@@ -7,7 +7,7 @@ public:
         for(int i=0; i<path.size(); i++){
             if(path[i] == '/'){
                 if(current == ".." && !stk.empty()) stk.pop();
-                else if(current != "" && current != "." && current != ".." && current.find('/') == string::npos) stk.push(current);
+                else if(current != "" && current != "." && current != "..") stk.push(current);
                 current = "";
                 while(i+1<path.size() && path[i+1] == '/') i++;
             }
@@ -15,7 +15,7 @@ public:
         }
 
         if(current == ".." && !stk.empty()) stk.pop();
-        else if(current != "" && current != "." && current != ".." && current.find('/') == string::npos) stk.push(current);
+        else if(current != "" && current != "." && current != "..") stk.push(current);
 
         while(!stk.empty()){
             cout<<stk.top()<<" ";
