@@ -1,30 +1,29 @@
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<int> stk;
-        for(auto& token: tokens){
-            if(token.size() > 1 || isdigit(token[0]))    stk.push(stoi(token));
+        stack<int> num;
+        for(int i=0; i<tokens.size(); i++){
+            if(tokens[i].size() > 1 || isdigit(tokens[i][0])) num.push(stoi(tokens[i]));
             else{
-                int num1 = stk.top();
-                stk.pop();
-                int num2 = stk.top();
-                stk.pop();
-                switch(token[0]){
+                int tmp1 = num.top(); num.pop();
+                int tmp2 = num.top(); num.pop();
+                switch(tokens[i][0]){
                     case '+':  
-                        stk.push(num2 + num1);
+                        num.push(tmp2 + tmp1);
                         break;
                     case '-': 
-                        stk.push(num2 - num1);
+                        num.push(tmp2 - tmp1);
                         break;
                     case '*': 
-                        stk.push(num2 * num1);
+                        num.push(tmp2 * tmp1);
                         break;
                     case '/': 
-                        stk.push(num2 / num1);
+                        num.push(tmp2 / tmp1);
                         break;
                 }
             }
+            
         }
-        return stk.top();
+        return num.top();
     }
 };
