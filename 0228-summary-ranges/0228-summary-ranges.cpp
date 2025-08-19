@@ -5,20 +5,20 @@ public:
         int n = nums.size();  
         vector<string> res;
         int start = nums[0];
-        bool isContiguous = false;
-        bool isLast = false;
-        for(int i=0; i<n; i++){
-            isContiguous = false;
-            if(i == n-1) isLast = true;
-            if(!isLast && nums[i]+1 == nums[i+1])  isContiguous = true;
-            if(isLast || !isContiguous){
-                if(start == nums[i]) res.push_back(to_string(start));
-                else res.push_back(to_string(start) + "->" + to_string(nums[i]));
-                if(!isLast){
-                    start = nums[i+1];
-                }
+        int end = nums[0];
+        for(int i=1; i<n; i++){
+            if(nums[i] == end + 1){
+                end = nums[i];
+            }
+            else{
+                if(start == end) res.push_back(to_string(start));
+                else res.push_back(to_string(start) + "->" + to_string(end));
+                start = nums[i];
+                end = nums[i];
             }
         }
+        if(start == end) res.push_back(to_string(start));
+        else res.push_back(to_string(start) + "->" + to_string(end));
         return res;
     }
 };
