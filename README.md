@@ -49,6 +49,7 @@
 | [0658-find-k-closest-elements](https://github.com/wenwen510238/LeetCode/tree/master/0658-find-k-closest-elements) |
 | [0874-backspace-string-compare](https://github.com/wenwen510238/LeetCode/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/wenwen510238/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+| [1019-squares-of-a-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Recursion
 |  |
 | ------- |
@@ -170,6 +171,7 @@
 | [0792-binary-search](https://github.com/wenwen510238/LeetCode/tree/master/0792-binary-search) |
 | [0945-snakes-and-ladders](https://github.com/wenwen510238/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+| [1019-squares-of-a-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/wenwen510238/LeetCode/tree/master/1036-rotting-oranges) |
 ## String
 |  |
@@ -307,6 +309,7 @@
 | [0692-top-k-frequent-words](https://github.com/wenwen510238/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/wenwen510238/LeetCode/tree/master/0721-accounts-merge) |
 | [1014-k-closest-points-to-origin](https://github.com/wenwen510238/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+| [1019-squares-of-a-sorted-array](https://github.com/wenwen510238/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Counting Sort
 |  |
 | ------- |
