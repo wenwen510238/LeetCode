@@ -3,23 +3,19 @@ public:
     int threeSumClosest(vector<int>& nums, int target) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
-        int res = nums[0] + nums[1] + nums[2];
-        for(int i=0; i<n; i++){
-            if(i >= 1 && nums[i] == nums[i-1]) continue;
+        int close = nums[0] + nums[1] + nums[2];
+        for(int i=0; i<n-2; i++){
             int l = i + 1;
             int r = n - 1;
-            int t = target - nums[i];
             while(l < r){
-                int sum = nums[l] + nums[r];
-                if(sum == t) return target;
-                else{
-                    if(abs(sum+nums[i]-target) < abs(res-target)) res = sum + nums[i];
-                    if(sum < t) l++;
-                    else r--;
-                }
+                int sum = nums[l] + nums[r] + nums[i];
+                if(abs(sum - target) < abs(close - target)) close = sum;
+                if(sum == target) return target;
+                else if(sum < target) l++;
+                else r--;
             }
         }
-        return res;
+        return close;
     }
 };
 // -5 -5 -4 0 0 3 3 4 5 
